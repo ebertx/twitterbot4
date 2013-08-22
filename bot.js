@@ -21,6 +21,27 @@ Bot.prototype.tweet = function (status, callback) {
 };
 
 //
+// retweet
+//
+Bot.prototype.retweet = function (status, callback) {
+
+};
+
+//
+// favorite a tweet
+//
+Bot.prototype.favorite = function (status, callback) {
+
+};
+
+//
+// topical follow
+//
+Bot.prototype.searchFollow = function (status, callback) {
+
+};
+
+//
 //  choose a random friend of one of your followers, and follow that user
 //
 Bot.prototype.mingle = function (callback) {
