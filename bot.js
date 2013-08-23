@@ -20,6 +20,13 @@ Bot.prototype.tweet = function (status, callback) {
   this.twit.post('statuses/update', { status: status }, callback);
 };
 
+// 
+// search
+//
+Bot.prototype.search = function (terms, callback) {
+
+};
+
 //
 // retweet
 //

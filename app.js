@@ -21,7 +21,7 @@ setInterval(function() {
 	var rand = Math.random();
 
 	if(rand <= .50) {
-		// favorite popular web development tweets
+		// favorite or retweet popular web development tweets
 		var params = {
 			q: 'html'
 			, since: datestring()
