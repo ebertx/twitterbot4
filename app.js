@@ -29,6 +29,7 @@ setInterval(function() {
 			, limit: 10
 		};
 
+
 		if(rand <= .25) {
 			console.log("Begin favoriting");
 			bot.twit.post('favorites/create', fparams, function(err2, reply2) {
